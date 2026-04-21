@@ -215,8 +215,6 @@ address {
   gap: 50px;
 }
 
-.foot-address {}
-
 footer {
   padding: 0 50px;
   display: grid;
