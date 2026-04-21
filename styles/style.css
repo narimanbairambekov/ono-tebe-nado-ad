@@ -203,3 +203,28 @@ address {
   font-size: 40px;
   margin-bottom: 100px;
 }
+
+
+.list-img {
+  width: 48px;
+  height: 48px;
+}
+
+.foot-menu {
+  list-style: none;
+  gap: 50px;
+}
+
+.foot-address {}
+
+footer {
+  padding: 0 50px;
+  display: grid;
+  grid-template-columns: 240px auto 240px;
+}
+
+.center-foot-menu {
+  font-size: 18px;
+  list-style: none;
+  text-align: center;
+}
