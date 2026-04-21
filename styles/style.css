@@ -3,12 +3,12 @@ header {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 95px 50px 100px;
+  padding: 86px 50px 86px;
 }
 
 .horizontal-menu {
   display: flex;
-  gap: 26px;
+  gap: 34px;
   list-style: circle;
   font-size: 18px;
 }
@@ -110,12 +110,96 @@ address {
   background-color: transparent;
 }
 
-.lots {}
+.lots {
+  padding-left: 24px;
+  padding-right: 24px;
+}
 
-.normal-heading {}
+.lots-heading {
+  font-size: 40px;
+  margin-left: 40px;
+  margin-bottom: 27px;
+}
 
-.fragment {}
+.cards-list {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+  color: white;
+  flex-wrap: wrap;
+}
 
-.fragment-heading {}
+.fragment {
+  position: relative;
+  z-index: 0;
+  width: 334px;
+  height: 596px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px;
+  margin-bottom: 30px;
+}
 
-.ellipse {}
+.fragment-heading {
+  max-width: 254px;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.article-f {
+  font-size: 20px;
+  width: 254px;
+  margin-top: auto;
+}
+
+.lots-link {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.about {
+  padding-left: 24px;
+  padding-right: 24px;
+  display: grid;
+  grid-template-columns: 334px auto;
+  align-items: center;
+  margin-bottom: 180px;
+}
+
+.ellipse {
+  margin-top: -158px;
+  width: 240px;
+  height: 240px;
+  background-color: black;
+  border-radius: 50%;
+  justify-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-logo {
+  width: 148px;
+  height: auto;
+}
+
+.about p {
+  font-size: 20px;
+  width: 690px;
+}
+
+.first-p {
+  margin-bottom: 24px;
+}
+
+.about-div {
+  margin-left: 26px;
+}
+
+.about-heading {
+  margin-top: 260px;
+  font-size: 40px;
+  margin-bottom: 100px;
+}
